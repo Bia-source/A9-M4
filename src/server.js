@@ -5,6 +5,7 @@ const app = express()
 const port = 4000
 
 // permite nosso js entender json
+// transforma um json em objeto
 app.use(express.json());
 
 // dando acesso as nossas rotas
